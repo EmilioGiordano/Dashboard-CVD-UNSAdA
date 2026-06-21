@@ -158,10 +158,21 @@ export default function App() {
           </CardContent>
         </Card>
 
-        <footer className="mt-8 text-center text-xs text-muted-foreground">
+        <p className="mt-8 text-center text-xs text-muted-foreground">
           Nota: los filtros (ambientes, años y comunas) afectan a todo el tablero. Con varias
           cantidades de ambientes, cada gráfico muestra una línea por tipología. La «oferta
           estimada» es una variable derivada (superficie total ÷ superficie promedio de la ciudad).
+        </p>
+
+        <footer className="mt-8 border-t pt-6 text-center text-xs text-muted-foreground">
+          <p>
+            Dashboard realizado en el marco de la asignatura{" "}
+            <span className="font-medium text-foreground">Calidad y Visualización de Datos</span>,
+            UNSAdA 2026.
+          </p>
+          <p className="mt-1">
+            Integrantes del grupo: Emilio Giordano · Katherine Molina · Agustín Moscato
+          </p>
         </footer>
       </div>
     </div>
