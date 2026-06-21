@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Datos copiados automáticamente desde la raíz (ver scripts/copy-data.cjs)
-public/data
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
